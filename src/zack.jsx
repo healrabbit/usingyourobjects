@@ -1,14 +1,14 @@
-import leftarrow from './assets/arrowleft.png'
-import leftarrowhover from './assets/arrowhoverleft.png'
+import leftarrow from '/assets/arrowleft.png'
+import leftarrowhover from '/assets/arrowhoverleft.png'
 import { useState } from 'react';
-import setBg from "./bg.js";
-import  './assets/bg1.jpg'
+import setBg from "/bg.js";
+import  '/assets/bg1.jpg'
 import { NavLink } from "react-router";
-import zack1 from './assets/_1040586.jpg'
-import zack2 from './assets/_1040617.jpg'
+import zack1 from '/assets/_1040586.jpg'
+import zack2 from '/assets/_1040617.jpg'
 
 function Homepage() {
-      setBg({image: 'url("src/assets/bg1.jpg")'})
+      setBg({image: 'url("/assets/bg1.jpg")'})
  const [arrowL, setArrowL] = useState(leftarrow);
   return (
 <div id="interviewparent"> 

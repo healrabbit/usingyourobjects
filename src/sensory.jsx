@@ -1,31 +1,31 @@
-import rightarrow from './assets/arrowright.png'
-import rightarrowhover from './assets/arrowhoverright.png'
-import leftarrow from './assets/arrowleft.png'
-import leftarrowhover from './assets/arrowhoverleft.png'
+import rightarrow from '/assets/arrowright.png'
+import rightarrowhover from '/assets/arrowhoverright.png'
+import leftarrow from '/assets/arrowleft.png'
+import leftarrowhover from '/assets/arrowhoverleft.png'
 import { useState } from 'react';
 import setBg from './bg.js'
 import {NavLink} from 'react-router';
-import title from './assets/sensorytitle.png'
-import walnuts from './assets/walnuts.jpeg'
+import title from '/assets/sensorytitle.png'
+import walnuts from '/assets/walnuts.jpeg'
 //menu imports
-import menuHome from './assets/menu-home.png';
-import menuArtifacts from './assets/menu-artifacts.png';
-import menuCaseStudies from './assets/menu-casestudies.png';
-import menuLifeCycle from './assets/menu-lifecycle.png';
-import menuSensory from './assets/menu-sensory.png';
-import menuEmotional from './assets/menu-emotional.png';
-import menuResistance from './assets/menu-resistance.png';
-import menuClosing from './assets/menu-closing.png';
-import menuReferences from './assets/menu-references.png';
-import menuHomeHover from './assets/menu-homehover.png';
-import menuArtifactsHover from './assets/menu-artifactshover.png';
-import menuCaseStudiesHover from './assets/menu-casestudieshover.png';
-import menuLifeCycleHover from './assets/menu-lifecyclehover.png';
-import menuSensoryHover from './assets/menu-sensoryhover.png';
-import menuEmotionalHover from './assets/menu-emotionalhover.png';
-import menuResistanceHover from './assets/menu-resistancehover.png';
-import menuClosingHover from './assets/menu-closinghover.png';
-import menuReferencesHover from './assets/menu-referenceshover.png';
+import menuHome from '/assets/menu-home.png';
+import menuArtifacts from '/assets/menu-artifacts.png';
+import menuCaseStudies from '/assets/menu-casestudies.png';
+import menuLifeCycle from '/assets/menu-lifecycle.png';
+import menuSensory from '/assets/menu-sensory.png';
+import menuEmotional from '/assets/menu-emotional.png';
+import menuResistance from '/assets/menu-resistance.png';
+import menuClosing from '/assets/menu-closing.png';
+import menuReferences from '/assets/menu-references.png';
+import menuHomeHover from '/assets/menu-homehover.png';
+import menuArtifactsHover from '/assets/menu-artifactshover.png';
+import menuCaseStudiesHover from '/assets/menu-casestudieshover.png';
+import menuLifeCycleHover from '/assets/menu-lifecyclehover.png';
+import menuSensoryHover from '/assets/menu-sensoryhover.png';
+import menuEmotionalHover from '/assets/menu-emotionalhover.png';
+import menuResistanceHover from '/assets/menu-resistancehover.png';
+import menuClosingHover from '/assets/menu-closinghover.png';
+import menuReferencesHover from '/assets/menu-referenceshover.png';
 
 
 function Senses() {
