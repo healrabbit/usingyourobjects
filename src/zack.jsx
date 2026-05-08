@@ -3,7 +3,7 @@ import leftarrowhover from '/assets/arrowhoverleft.png'
 import { useState } from 'react';
 import setBg from "./bg.js";
 import  '/assets/bg1.jpg'
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
 import zack1 from '/assets/_1040586.jpg'
 import zack2 from '/assets/_1040617.jpg'
 

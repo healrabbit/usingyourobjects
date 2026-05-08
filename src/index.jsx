@@ -3,7 +3,7 @@ import rightarrowhover from '/assets/arrowhoverright.png'
 import { useState } from 'react';
 import setBg from "./bg.js";
 import  '/assets/bg1.jpg'
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
 import title from '/assets/title.png'
 function Homepage() {
       setBg({image: 'url("/assets/bg1.jpg")'})

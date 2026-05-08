@@ -8,7 +8,7 @@ import autumn from '/assets/autumn.png'
 import autumnHover from '/assets/autumnhover.png'
 import { useState } from 'react';
 import setBg from './bg.js'
-import {NavLink} from 'react-router';
+import {NavLink} from 'react-router-dom';
 import title from '/assets/casestudiestitle.png'
 //menu imports
 import menuHome from '/assets/menu-home.png';

@@ -13,7 +13,7 @@ import Emotional from './emotional.jsx'
 import Resistance from './resistance.jsx'
 import Closing from './closing.jsx'
 import References from './references.jsx'
-import {Routes, Route } from "react-router";
+import {Routes, Route } from "react-router-dom";
 function App() {
 
   return (

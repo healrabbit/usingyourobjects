@@ -4,7 +4,7 @@ import leftarrow from '/assets/arrowleft.png'
 import leftarrowhover from '/assets/arrowhoverleft.png'
 import { useState } from 'react';
 import setBg from './bg.js'
-import {NavLink} from 'react-router';
+import {NavLink} from 'react-router-dom';
 import title from '/assets/sensorytitle.png'
 import walnuts from '/assets/walnuts.jpeg'
 //menu imports
