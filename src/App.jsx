@@ -14,7 +14,6 @@ import Resistance from './resistance.jsx'
 import Closing from './closing.jsx'
 import References from './references.jsx'
 import {Routes, Route } from "react-router";
-import './assets/SpecialElite-Regular.ttf'
 function App() {
 
   return (
