@@ -5,7 +5,7 @@ import leftarrowhover from './assets/arrowhoverleft.png'
 import { useState } from 'react';
 import setBg from './bg.js'
 import {NavLink} from 'react-router';
-import title from './assets/referencestitle.png'
+import title from '/assets/referencestitle.png'
 //menu imports
 import menuHome from './assets/menu-home.png';
 import menuArtifacts from './assets/menu-artifacts.png';
