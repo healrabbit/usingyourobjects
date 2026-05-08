@@ -27,7 +27,7 @@ text-align:left;
 position:absolute;
 left:30vw;
 margin: 10vh;
-background-image:url(./assets/paperbglong.png);
+background-image:url(/assets/paperbglong.png);
 background-size: cover;
 padding:10vh;
 padding-left:10vw;
@@ -61,7 +61,7 @@ flex-direction:column;
 }
 
 #sectionL{
-  background-image:url(./assets/paperbg1.png);
+  background-image:url(/assets/paperbg1.png);
   background-size: cover;
 width:40vw;
 padding:5vh;
@@ -93,7 +93,7 @@ font-size:12px;
   }
 
 #sectionR{
-    background-image:url(./assets/paperbg1.png);
+    background-image:url(/assets/paperbg1.png);
   background-size: cover;
   position:relative;
   width:40vw;
@@ -140,14 +140,14 @@ width:20vw;
 padding:2vh;
 }
 #caption{
-  background-image: url('./assets/imgcaptionbg.png');
+  background-image: url('/assets/imgcaptionbg.png');
   background-size:cover;
   padding:2vw;
 }
 
 #finalthoughts{
   position:absolute;
-  background-image: url(./assets/paperbg1.png);
+  background-image: url(/assets/paperbg1.png);
   background-size:cover;
   padding: 5vh;
   width: 40vw;
@@ -159,7 +159,7 @@ padding:2vh;
 }
 #references{
     position:absolute;
-  background-image: url(./assets/paperbg1.png);
+  background-image: url(/assets/paperbg1.png);
   background-size:cover;
   padding: 5vh;
   width: 40vw;
