@@ -1,0 +1,171 @@
+
+body{
+  background-image:var(--bg);
+}
+#arrowleft{
+position:fixed;
+left:10vw;
+top:80vh;
+width:150px;
+}
+
+#arrowright{
+position:fixed;
+right:10vw;
+top:80vh;
+width:150px;
+}
+
+#interviewparent{
+display:flex;
+flex-direction:row;
+}
+#interviewdiv{
+  display:flex;
+flex-direction: column;
+text-align:left;
+position:absolute;
+left:30vw;
+margin: 10vh;
+background-image:url(./assets/paperbglong.png);
+background-size: cover;
+padding:10vh;
+padding-left:10vw;
+
+width:40vw;
+}
+
+#interviewimg{
+  display:flex;
+  position:fixed;
+  width:25vw;
+  flex-direction:column;
+  margin-left:5vw;
+  
+}
+#interviewimg img{
+  padding:2vh;
+  object-fit:contain;
+}
+#badgeparent{
+  display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+margin-top:25vh;
+}
+#interviewbadge{
+width:40vw;
+display:flex;
+flex-direction:column;
+}
+
+#sectionL{
+  background-image:url(./assets/paperbg1.png);
+  background-size: cover;
+width:40vw;
+padding:5vh;
+}
+#sectionLparent{
+  display:flex;
+  flex-direction:column;
+}
+#sectionRparent{
+  display:flex;
+  flex-direction:column;
+}
+#titles{
+width:30vw;
+}
+#footnote{
+  background-image:url(src/assets/paperbgfn.png);
+  background-size:cover;
+  width:40vw;
+  margin-top:2vh;
+  padding:5vh;
+  padding-left:5vw;
+  padding-right:5vw;
+} 
+  
+#footnote p{
+font-size:12px;
+  line-height:12px;
+  }
+
+#sectionR{
+    background-image:url(./assets/paperbg1.png);
+  background-size: cover;
+  position:relative;
+  width:40vw;
+padding:5vh;
+margin-top:5vh;
+margin-bottom:10vh;
+}
+
+#sectionparent{
+  display:flex;
+flex-direction:row;
+padding-bottom:10vh;
+margin-bottom:5vh;
+margin-top: 15vh;
+}
+
+#titletape{
+  position:absolute;
+  width: 50vw;
+  left:10vw;
+
+}
+#nav{
+  position:fixed;
+display:flex;
+flex-direction:row;
+top:2vh;
+z-index:20;
+}
+#menu{
+  width:8vw;
+  padding:1vw;
+}
+
+#cstitle{
+  position:absolute;
+  width:30vw;
+  top:10vh;
+  left:35vw;
+}
+
+#image{
+width:20vw;
+padding:2vh;
+}
+#caption{
+  background-image: url('./assets/imgcaptionbg.png');
+  background-size:cover;
+  padding:2vw;
+}
+
+#finalthoughts{
+  position:absolute;
+  background-image: url(./assets/paperbg1.png);
+  background-size:cover;
+  padding: 5vh;
+  width: 40vw;
+  top:40vh;
+  left:28vw;
+}
+#finalthoughts p{
+  font-size:24px;
+}
+#references{
+    position:absolute;
+  background-image: url(./assets/paperbg1.png);
+  background-size:cover;
+  padding: 5vh;
+  width: 40vw;
+  top:40vh;
+  left:28vw;
+}
+#references p{
+font-size:14px;
+}

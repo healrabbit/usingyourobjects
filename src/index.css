@@ -1,0 +1,24 @@
+
+:root {
+    --bg: url('./assets/bg1.jpg');
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/SpecialElite-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background-image: var(--bg);
+    background-size:cover;
+    height:100%;
+
+}
+
+p{
+   font-family: MyFont, sans-serif;
+   line-height:25px;
+}
+
