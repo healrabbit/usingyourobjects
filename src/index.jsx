@@ -6,7 +6,7 @@ import  '/assets/bg1.jpg'
 import { NavLink } from "react-router";
 import title from '/assets/title.png'
 function Homepage() {
-      setBg({image: 'url("src/assets/bg1.jpg")'})
+      setBg({image: 'url("/assets/bg1.jpg")'})
  const [arrowR, setArrowR] = useState(rightarrow);
   return (
 <div> 

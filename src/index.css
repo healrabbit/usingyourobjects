@@ -1,11 +1,11 @@
 
 :root {
-    --bg: url('./assets/bg1.jpg');
+    --bg: url('/assets/bg1.jpg');
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('./assets/SpecialElite-Regular.ttf') format('truetype');
+  src: url('/assets/SpecialElite-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
