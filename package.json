@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://healrabbit.github.io/usingyourobjects",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,9 +12,8 @@
     "predeploy": "npm run build",
  "deploy": "gh-pages -d dist"
   },
-  {
-  "homepage": "https://healrabbit.github.io/usingyourobjects",
-},
+
+ 
   "dependencies": {
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
