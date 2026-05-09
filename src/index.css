@@ -1,6 +1,10 @@
 
 :root {
     --bg: url('/assets/bg1.jpg');
+
+    background-image: var(--bg);
+     background-size:cover;
+    height:100%;
 }
 
 @font-face {
@@ -10,12 +14,6 @@
   font-style: normal;
 }
 
-#root {
-    background-image: var(--bg);
-    background-size:cover;
-    height:100%;
-
-}
 
 p{
    font-family: MyFont, sans-serif;
