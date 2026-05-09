@@ -78,7 +78,7 @@ padding:5vh;
 width:30vw;
 }
 #footnote{
-  background-image:url(src/assets/paperbgfn.png);
+  background-image:url(/assets/paperbgfn.png);
   background-size:cover;
   width:40vw;
   margin-top:2vh;
@@ -140,7 +140,7 @@ width:20vw;
 padding:2vh;
 }
 #caption{
-  background-image: url('/assets/imgcaptionbg.png');
+  background-image: url(/assets/imgcaptionbg.png);
   background-size:cover;
   padding:2vw;
 }
