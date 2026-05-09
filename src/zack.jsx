@@ -8,7 +8,7 @@ import zack1 from '/assets/_1040586.jpg'
 import zack2 from '/assets/_1040617.jpg'
 
 function Homepage() {
-      setBg({image: 'url("/assets/bg1.jpg")'})
+      setBg({image: 'url("usingyourobjects/assets/bg1.jpg")'})
  const [arrowL, setArrowL] = useState(leftarrow);
   return (
 <div id="interviewparent"> 

@@ -27,7 +27,7 @@ import menuClosingHover from '/assets/menu-closinghover.png';
 import menuReferencesHover from '/assets/menu-referenceshover.png';
 
 function CaseStudies() {
-     setBg({image: 'url("src/assets/bg2.jpg")'})
+     setBg({image: 'url("usingyourobjects/assets/bg2.jpg")'})
  const [arrowR, setArrowR] = useState(rightarrow);
  const [arrowL, setArrowL] = useState(leftarrow);
  

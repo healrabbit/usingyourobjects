@@ -29,7 +29,7 @@ import menuReferencesHover from '/assets/menu-referenceshover.png';
 
 
 function Senses() {
-     setBg({image: 'url("src/assets/bg1.jpg")'})
+     setBg({image: 'url("usingyourobjects/assets/bg1.jpg")'})
  const [arrowR, setArrowR] = useState(rightarrow);
  const [arrowL, setArrowL] = useState(leftarrow);
 
