@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-body {
+#root {
     background-image: var(--bg);
     background-size:cover;
     height:100%;
