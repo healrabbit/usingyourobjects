@@ -8,7 +8,7 @@ import autumn1 from '/assets/_1040565.jpg'
 import autumn2 from '/assets/_1040579-Edit.jpg'
 
 function Homepage() {
-      setBg({image: 'url("usingyourobjects/assets/bg1.jpg")'})
+      setBg({image: 'url("/assets/bg1.jpg")'})
  const [arrowL, setArrowL] = useState(leftarrow);
   return (
 <div id="interviewparent"> 

@@ -1,26 +1,103 @@
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 import './App.css'
-import Homepage from './index.jsx'
-import CaseStudies from './casestudies.jsx'
-import Zack from './zack.jsx'
-import Autumn from './autumn.jsx'
-import Artifacts from './artifacts.jsx'
-import LifeCycle from './lifecycle.jsx'
-import Sensory from './sensory.jsx'
-import Emotional from './emotional.jsx'
-import Resistance from './resistance.jsx'
-import Closing from './closing.jsx'
-import References from './references.jsx'
-import {BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './index.jsx'
+import CaseStudiesPage from './casestudies.jsx'
+import ZackPage from './zack.jsx'
+import AutumnPage from './autumn.jsx'
+import ArtifactsPage from './artifacts.jsx'
+import LifeCyclePage from './lifecycle.jsx'
+import SensoryPage from './sensory.jsx'
+import EmotionalPage from './emotional.jsx'
+import ResistancePage from './resistance.jsx'
+import ClosingPage from './closing.jsx'
+import ReferencesPage from './references.jsx'
+import {HashRouter, Routes, Route } from "react-router-dom";
+
+function Home(){
+
+  return(
+    <HomePage/>
+  )
+}
+
+function CaseStudies(){
+
+  return(
+    <CaseStudiesPage/>
+  )
+}
+
+function Zack(){
+
+  return(
+    <ZackPage/>
+  )
+}
+
+function Autumn(){
+
+  return(
+    <AutumnPage/>
+  )
+}
+
+function Artifacts(){
+
+  return(
+    <ArtifactsPage/>
+  )
+}
+
+function LifeCycle(){
+
+  return(
+    <LifeCyclePage/>
+  )
+}
+
+function Emotional(){
+
+  return(
+    <EmotionalPage/>
+  )
+}
+
+function Sensory(){
+
+  return(
+    <SensoryPage/>
+  )
+}
+
+function Resistance(){
+
+  return(
+    <ResistancePage/>
+  )
+}
+
+function Closing(){
+
+  return(
+    <ClosingPage/>
+  )
+}
+
+function References(){
+
+  return(
+    <ReferencesPage/>
+  )
+}
+
 function App() {
 
   return (
-    <BrowserRouter >
+    <HashRouter >
  <div>
       <Routes>
-      <Route path="/" element={<Homepage/>} />
+      <Route path="/" element={<Home/>} />
       <Route path="/casestudies" element={<CaseStudies/>} />
       <Route path="/zack" element={<Zack/>} />
       <Route path="/autumn" element={<Autumn/>} />
@@ -35,7 +112,7 @@ function App() {
 
      
  </div>
- </BrowserRouter>
+ </HashRouter>
   )
 }
 
